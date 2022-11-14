@@ -1,4 +1,4 @@
-python_sources(run_goal_use_sandbox=False)
+python_sources()
 
 poetry_requirements(
     name="poetry",
