@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "greeter"
+version = "0.1.0"
+description = ""
+authors = ["Robert Hinckley <37898062+rhinck@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.19.0"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.87.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
